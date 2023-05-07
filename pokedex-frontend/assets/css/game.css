@@ -1,0 +1,126 @@
+.game {
+  display: flex;
+}
+
+#fight {
+  flex: 1;
+  background-image: url(../img/grass.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.player-img {
+  width: 150px;
+  border-radius: 30px;
+}
+
+.pokemon-list {
+  margin: 30px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 200px;
+  grid-gap: 10px;
+}
+
+.pokemon-list img {
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: rgba(0, 0, 0, 0.122) 1px 1px 15px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.pokemon-list img.selected {
+  border-color: rgb(9, 231, 9);
+  border-width: 2px;
+}
+
+.pokemon-card {
+  width: 200px;
+}
+
+.pokemon-card-img {
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 100%;
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: rgba(0, 0, 0, 0.122) 1px 1px 15px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.vs {
+  flex:1;
+  text-align: center;
+}
+.vs h1{
+  color: white;
+  font-size: 4rem;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 15px;
+}
+
+.player {
+  background-color: rgba(147, 156, 142, 0.129);
+}
+
+
+.modal {
+  min-width: 1200px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-contenido {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenido div {
+  text-align: center;
+}
+
+.contenido img {
+  width: 100%;
+  height: auto;
+}
+
+.contenido p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

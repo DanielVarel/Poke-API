@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "62f19f287bde639e6dd8f583"
+  },
+  "firstName": "Ash",
+  "lastName": "Ketchup",
+  "gender": "Masculino",
+  "pokemons": [
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7a8"
+      },
+      "name": "Bulbasaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/001.png"
+    }
+  ],
+  "level": "noob",
+  "img": "https://www.serebii.net/anime/pictures/houen/307/0015.JPG"
+},{
+  "_id": {
+    "$oid": "62f19f287bde639e6dd8f584"
+  },
+  "firstName": "Misty",
+  "lastName": "Rogriguez",
+  "gender": "Femenino",
+  "pokemons": [
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7bb"
+      },
+      "name": "Raticate",
+      "img": "http://www.serebii.net/pokemongo/pokemon/020.png"
+    }
+  ],
+  "level": "master",
+  "img": "https://www.serebii.net/anime/pictures/houen/301/0328.JPG"
+},{
+  "_id": {
+    "$oid": "62f19f287bde639e6dd8f585"
+  },
+  "firstName": "Brook",
+  "lastName": "Perez",
+  "gender": "Masculino",
+  "pokemons": [
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7ad"
+      },
+      "name": "Charizard",
+      "img": "http://www.serebii.net/pokemongo/pokemon/006.png"
+    },
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7ac"
+      },
+      "name": "Charmeleon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/005.png"
+    },
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7ae"
+      },
+      "name": "Squirtle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/007.png"
+    },
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7af"
+      },
+      "name": "Wartortle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/008.png"
+    },
+    {
+      "_id": {
+        "$oid": "62e882aa4a2d63ba8af9a7b0"
+      },
+      "name": "Blastoise",
+      "img": "http://www.serebii.net/pokemongo/pokemon/009.png"
+    }
+  ],
+  "level": "intermediate",
+  "img": "https://www.serebii.net/anime/pictures/houen/S8/0093.JPG"
+}]
